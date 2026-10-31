@@ -1,23 +1,26 @@
 QueueRepair Privacy Policy
-Last Updated: 23/11/2025
+Last Updated: 31/10/2026
 
 1. Data Collection
 QueueRepair stores the following information locally on your device:
 
-Device details (name, serial number)
+- Device details (name, serial number)
+- Repair descriptions
+- Ticket details you choose to enter: priority, status, dates, and the name of the person who submitted the device
+- Repair notes and a log of changes to each ticket (for example, status or priority changes, with timestamps)
+- Optional: Contact information (if provided voluntarily for repair tracking)
 
-Repair descriptions
-
-Optional: Contact information (if provided voluntarily for repair tracking)
-
-No personal data is collected, shared, or transmitted externally.
+ITSYS does not collect, receive, or transmit any of this data. Names and contact details you enter may be personal data about other people (such as customers or colleagues), so please only store information you are allowed to keep.
 
 2. Data Storage & Security
-All data is saved in an QueueRepairData folder next to the application.
-
-Data remains on your device unless you manually transfer it.
-
-No encryption is applied (users may encrypt the folder themselves if needed).
+- All data is saved in a QueueRepairData folder, created in the location the application is run from (normally next to the application).
+- Backups: the application automatically copies your data into a "backups" folder inside QueueRepairData each time it starts, and keeps the 10 most recent copies. You can also create or restore a backup yourself from the File menu.
+- If the data file is found to be damaged, a copy of it may be kept as repair_data.corrupt.json in the same folder.
+- Exports: if you use the export features (CSV export, "Save Ticket as Text", or "Copy Details" to the clipboard), the resulting files or clipboard content contain the same information and are stored wherever you choose. The application does not track or control these copies.
+- Imports: CSV files you import are only read by the application, never uploaded anywhere.
+- Data remains on your device unless you manually transfer it.
+- The application does not connect to the internet.
+- No encryption is applied (users may encrypt the folder themselves if needed).
 
 3. No Sharing or Selling
 ITSYS does not transmit data to servers, third parties, or advertisers.
@@ -25,14 +28,12 @@ ITSYS does not transmit data to servers, third parties, or advertisers.
 No analytics or usage tracking is implemented.
 
 4. User Rights
-Access/Delete Data: Manually modify or delete the QueueRepairData folder.
-
-Corrections: Edit entries directly within the app.
+- Access/Delete Data: Manually modify or delete the QueueRepairData folder. Deleting a ticket inside the application removes it from the active data, but it may still exist in older backup files and in any exports you made. To remove it completely, also delete those copies (or the whole QueueRepairData folder).
+- Undo: tickets deleted inside the application can be restored with Undo (Ctrl+Z) until the application is closed.
+- Corrections: Edit tickets and notes directly within the application.
 
 5. Changes to This Policy
-Updates will be noted in the app’s README.txt. Continued use implies acceptance.
+Updates will be noted in the app's README.txt. Continued use implies acceptance.
 
 Contact
-For questions, email: apodimapps@gmail.com
-
-
+For questions, email: support@qsoftvirtual.top
